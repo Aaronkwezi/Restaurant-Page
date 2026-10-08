@@ -1,5 +1,11 @@
-import pizzaImage from "./ServicesImage(pizza).jpg";
+import BBQchicken from "../pages/BBQchickenpizza.jpg";
 import Meatzza from "../pages/Meatzaapizza.jpg";
+import Pepperoni from "../pages/Pepperoni.jpg";
+import SpicyChicken from "../pages/SpicyChicken.jpg";
+import Veggie from "../pages/Veggie.jpg";
+import Margherita from "../pages/Margherita.jpg";
+import Hawaiian from "../pages/Hawaiian.jpg";
+import FourCheese from "../pages/FourCheese.jpg";
 export default function menu() {
     console.log("This is Menu");
 
@@ -11,43 +17,43 @@ export default function menu() {
             name: "Barbeque Chicken pizza",
             Toppings: "Chicken, onions, cheese, BBQ sauce",
             Price: "$14.99",
-            image: pizzaImage,
+            image: BBQchicken,
         },
         {
             name: "Margherita",
             Toppings: "Classic tomato sauce, fresh mozzarella, and basil",
             Price: "$13.49",
-            image: pizzaImage,
+            image: Margherita,
         },
         {
             name: "Pepperoni",
             Toppings: "Tomato sauce, melted mozzarella, and crispy pepperoni",
             Price: "$15.25",
-            image: pizzaImage,
+            image: Pepperoni,
         },
         {
             name: "Veggie Supreme",
             Toppings: "Bell peppers, mushrooms, red onions, and olives over mozzarella and tomato sauce",
             Price: "$16.75",
-            image: pizzaImage,
+            image: Veggie,
         },
         {
             name: "Hawaiian",
             Toppings: "Ham, sweet pineapple, and mozzarella on a tomato sauce base",
             Price: "$15.95",
-            image: pizzaImage,
+            image: Hawaiian,
         },
         {
             name: "Four Cheese",
             Toppings: "Mozzarella, cheddar, Parmesan, and Gorgonzola",
             Price: "$17.50",
-            image: pizzaImage,
+            image: FourCheese,
         },
         {
             name: "Spicy Chicken",
             Toppings: "Chicken, jalapeños, red onions, and mozzarella with hot sauce",
             Price: "$16.25",
-            image: pizzaImage,
+            image: SpicyChicken,
         },
         {
             name:"Meatzza pizza",
