@@ -1,5 +1,5 @@
 console.log("This is Aaron");
-
+import "./style.css";
 import home from "./pages/home.js";
 import about from "./pages/about.js";
 import menu from "./pages/menu.js";

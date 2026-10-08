@@ -67,12 +67,15 @@ export default function menu() {
     title.textContent = "Our Menu";
 
     const menuGrid = document.createElement("div");
+    menuGrid.classList.add("menu");
 
     pizzas.forEach((pizza) => {
         const item = document.createElement("div");
+        item.classList.add("item");
         const itemImage = document.createElement("img");
         itemImage.src = pizza.image;
         itemImage.alt = `${pizza.name} pizza`;
+        itemImage.classList.add("image");
 
         const itemInfo = document.createElement("div");
         const itemName = document.createElement("h3");
